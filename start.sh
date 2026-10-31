@@ -1,1 +1,4 @@
-uv run update.py && uv run -m Backend
+#!/usr/bin/env bash
+set -e
+
+exec uv run -m Backend
